@@ -515,7 +515,7 @@
       {
         "name": "5V",
         "pcb_color": "rgb(255, 61, 0)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(255, 48, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -523,29 +523,36 @@
       {
         "name": "ADDRESS",
         "pcb_color": "rgb(255, 0, 228)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 228)",
         "tuning_profile": ""
       },
       {
         "name": "DA",
         "pcb_color": "rgb(55, 255, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(55, 255, 0)",
         "tuning_profile": ""
       },
       {
         "name": "GND",
         "pcb_color": "rgb(46, 0, 164)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(46, 0, 164)",
         "tuning_profile": "",
         "wire_width": 6
       },
       {
+        "name": "LED",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": ""
+      },
+      {
         "name": "PWM",
         "pcb_color": "rgb(0, 255, 168)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(0, 255, 168)",
         "tuning_profile": "",
         "wire_width": 6
@@ -553,7 +560,7 @@
       {
         "name": "SIGNAL",
         "pcb_color": "rgb(210, 255, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(210, 255, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -604,6 +611,10 @@
       {
         "netclass": "DA",
         "pattern": "/CIPO"
+      },
+      {
+        "netclass": "LED",
+        "pattern": "/LED2"
       }
     ]
   },
@@ -754,7 +765,7 @@
         "uuid": "572d2eec-a6d5-42ea-947f-84884dea8527"
       }
     ],
-    "used_designators": "U1-4,D1,#PWR1-27,C1,H1-4,SW1-2,J1-12,R1-9",
+    "used_designators": "U1-4,D1-2,#PWR1-27,C1,H1-4,SW1-2,J1-12,R1-10",
     "variants": []
   },
   "sheets": [
