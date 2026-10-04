@@ -3023,7 +3023,7 @@
 		)
 		(uuid "2ef96e7b-e913-49b7-8ae6-4776df01a826")
 	)
-	(text "programming header"
+	(text "MCU programming header"
 		(exclude_from_sim no)
 		(at 128.016 145.542 0)
 		(effects
@@ -3032,6 +3032,16 @@
 			)
 		)
 		(uuid "3a63b30d-0a09-4395-82df-d95463ca45de")
+	)
+	(text "Debug LED"
+		(exclude_from_sim no)
+		(at 117.602 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54576005-4a02-458d-a6c0-eaeefcb069e4")
 	)
 	(text "STEMMA I2C in and out"
 		(exclude_from_sim no)
@@ -3043,6 +3053,16 @@
 		)
 		(uuid "6374cd9c-5df4-4069-8fc1-8e68ba71c034")
 	)
+	(text "Power LED"
+		(exclude_from_sim no)
+		(at 37.592 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7da8547f-d542-4114-a594-464d76c86de4")
+	)
 	(text "MCU"
 		(exclude_from_sim no)
 		(at 71.882 53.594 0)
@@ -3052,6 +3072,26 @@
 			)
 		)
 		(uuid "97899586-7728-4e46-a33d-edf12f395495")
+	)
+	(text "I think the right facing one will connect to the Bar02"
+		(exclude_from_sim no)
+		(at 73.152 178.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b29cb970-c5ed-4e1b-8733-1d808fb8d6c8")
+	)
+	(text "Set I2C address, might leave out of BOM and just accept default value"
+		(exclude_from_sim no)
+		(at 152.908 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d342c1a9-b6d3-4d8c-87a0-d4b62c503a38")
 	)
 	(junction
 		(at 157.48 81.28)
@@ -3453,7 +3493,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 60.96) (xy 238.76 60.96)
+			(xy 210.82 60.96) (xy 250.19 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3483,7 +3523,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 68.58) (xy 238.76 68.58)
+			(xy 210.82 68.58) (xy 250.19 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3513,7 +3553,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 66.04) (xy 238.76 66.04)
+			(xy 210.82 66.04) (xy 250.19 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3873,7 +3913,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 63.5) (xy 238.76 63.5)
+			(xy 210.82 63.5) (xy 250.19 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6125,7 +6165,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "R_LED"
 			(at 50.8 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7011,7 +7051,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "R_LED"
 			(at 107.95 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8409,7 +8449,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 243.84 63.5 0)
+		(at 255.27 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8420,7 +8460,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa653177-e932-48be-b8ce-51ece865b5e8")
 		(property "Reference" "J5"
-			(at 245.11 63.4999 0)
+			(at 256.54 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8431,7 +8471,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 245.11 66.0399 0)
+			(at 256.54 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8442,7 +8482,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
-			(at 243.84 63.5 0)
+			(at 255.27 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8453,7 +8493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 63.5 0)
+			(at 255.27 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8464,7 +8504,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 243.84 63.5 0)
+			(at 255.27 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8490,85 +8530,6 @@
 			(project "tadpole_pwm_board"
 				(path "/572d2eec-a6d5-42ea-947f-84884dea8527"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 236.22 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc8cb6c5-92c1-4199-9e6c-a0078de03ee3")
-		(property "Reference" "#PWR012"
-			(at 236.22 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 238.76 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1276116a-7418-47c1-9529-6412458cec2c")
-		)
-		(instances
-			(project "tadpole_pwm_board"
-				(path "/572d2eec-a6d5-42ea-947f-84884dea8527"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
